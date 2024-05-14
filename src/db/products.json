@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Producto 16",
+    "description": "Descripcion de producto 16",
+    "price": 50,
+    "thumbnail": "img16.jpg",
+    "code": "P16",
+    "stock": 115,
+    "id": "fa90575a-0a80-4a5c-9e32-ae12e9858675"
+  },
+  {
+    "title": "Producto 17",
+    "description": "Descripcion de producto 17",
+    "code": "P16",
+    "price": 50,
+    "stock": 115,
+    "category": "Acero quirurgico",
+    "thumbnail": "img17.jpg",
+    "id": "77b0c928-d78c-4f4c-81fa-479a54f7c532",
+    "status": true
+  },
+  {
+    "title": "Producto 18",
+    "description": "Descripcion de producto 18",
+    "code": "P18",
+    "price": 50,
+    "stock": 115,
+    "category": "Acero quirurgico",
+    "thumbnail": "img18.jpg",
+    "status": true,
+    "id": "2cb91aa0-4c0a-4c31-bdab-06c716af178f"
+  },
+  {
+    "title": "Producto 19",
+    "description": "Descripcion de producto 18",
+    "code": "P18",
+    "price": 50,
+    "stock": 115,
+    "category": "Acero quirurgico",
+    "thumbnail": "img18.jpg",
+    "status": true,
+    "id": "b1da98b4-c344-477f-9e37-0abe7e836021"
+  },
+  {
+    "title": "Producto 20",
+    "description": "NUEVO PRODUCTO 20",
+    "code": "P20",
+    "price": 50,
+    "stock": 115,
+    "category": "Acero quirurgico",
+    "thumbnail": "img20.jpg",
+    "status": true,
+    "id": "a84cc5b7-5167-41f8-8592-3817fb0f7cfe"
+  },
+  {
+    "title": "Producto 1",
+    "description": "Descripcion prod 1",
+    "id": "d5548bc3-bee9-487a-bbc0-f38fceeb7fea",
+    "status": true
+  }
+]
