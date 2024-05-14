@@ -3,7 +3,7 @@ import productsRouter from "./routes/productsRouter.js";
 import cartsRouter from "./routes/cartsRouter.js";
 import handlebars from "express-handlebars";
 import { __dirname } from "./utils.js";
-
+import viewsRouter from "./routes/views.router.js";
 //Levantar servidor
 const app = express();
 const port = 8080;
@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
-
+app.use("/", viewsRouter);
 //handlebars
 app.engine("handlebars", handlebars.engine());
 app.set("views", __dirname + "/views");
