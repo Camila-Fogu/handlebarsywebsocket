@@ -1,12 +1,12 @@
 <h2>PRODUCTOS</h2>
 {{#if products.length}}
-  {{#each}}
+  {{#each products}}
     <div>
-      <p>{{product.category}}</p>
-      <p>{{product.title}}</p>
-      <p>{{product.description}}</p>
-      <p>Precio: {{product.price}}</p>
-      <p>Stock disponible: {{product.stock}}</p>
+      <p>{{category}}</p>
+      <p>{{title}}</p>
+      <p>{{description}}</p>
+      <p>Precio: {{price}}</p>
+      <p>Stock disponible: {{stock}}</p>
     </div>
   {{/each}}
 {{else}}
