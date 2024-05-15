@@ -15,8 +15,12 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.get("/realtimeproducts", (req, res) => {
-  res.render("realTimeProducts" /*, products*/);
+router.get("/realtimeproducts", async (req, res) => {
+  try {
+    res.render("realTimeProducts");
+  } catch (err) {
+    res.status(500).json({ msg: err.message });
+  }
 });
 
 export default router;

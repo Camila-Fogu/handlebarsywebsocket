@@ -2,7 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div {
+.eachProduct {
   background-color: #f0e8d5;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -23,4 +23,25 @@ div p {
 
 .stock {
   color: #4a4e69; /* Color del stock */
+}
+
+#form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #6d6875; /* Color del texto */
+}
+
+#form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #6d6875; /* Borde del input */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #f0e8d5; /* Color de fondo pastel */
 }
