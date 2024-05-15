@@ -1,7 +1,26 @@
-h1 {
-  color: blue;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2 {
-  color: green;
+div {
+  background-color: #f0e8d5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+div p {
+  color: #6d6875; /* Color de texto */
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.price {
+  color: #4a4e69; /* Color del precio */
+  font-weight: bold;
+}
+
+.stock {
+  color: #4a4e69; /* Color del stock */
 }

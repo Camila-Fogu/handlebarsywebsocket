@@ -1,8 +1,7 @@
 import { Router } from "express";
 const router = Router();
-import ProductManager from "../manager/ProductManager.js";
-
 import { __dirname } from "../utils.js";
+import ProductManager from "../manager/ProductManager.js";
 const productManager = new ProductManager(__dirname + "/db/products.json");
 import { productValidator } from "../middlewares/productValidator.js";
 import { uploader } from "../middlewares/multer.js";
